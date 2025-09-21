@@ -2,6 +2,11 @@
 
 <html>
 	<head>
+		<script>
+		if (window.top == window.self) {
+			window.location.href="./learning.html";
+		}
+		</script>
 		<link rel="stylesheet" type="text/css" href="css/message_box_ui.css">
 		<link rel="stylesheet" type="text/css" href="css/customization.css">
 		<link rel="stylesheet" type="text/css" href="css/checkpoint_ui.css">
@@ -36,3 +41,4 @@
 		<script type="module" src="dist/main.bundle.js" defer></script>
 	</body>
 </html>
+
